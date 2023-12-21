@@ -1,0 +1,63 @@
+body {
+    background-color: #909CC2;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    width: 100%;
+}
+
+td,
+th {
+    text-align: center;
+    border: 1px solid #F7F5FB;
+    padding: 8px;
+    
+}
+
+th {
+    color: #F7F5FB;
+    background-color: #084887;
+}
+
+
+/*
+спитати, чтому не вийшло застилізувати з nth-child
+
+tr:nth-child(2n) {
+    background-color: #F9AB55;
+}
+
+*/
+
+
+
+.tr-color-1 {
+background-color: #F7F5FB;
+}
+
+.tr-color-2 {
+background-color: #DCD3EE;
+}
+
+.lab-header {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.lab-head {
+    font-size: 24px
+}
+
+.lab-subhead {
+    font-size: 20px;
+}
+
+.controls {
+    text-align: center;
+    margin-bottom: 40px;
+}
+

@@ -4,11 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <header class="lab-header">
+      <h1 class="lab-head">Лабораторна робота №3, варіант №4</h1>
+      <p class="lab-subhead">на тему "Мова створення сценаріїв JavaScript"</p>
+      <p class="lab-subhead">Виконав ст. гр. КІУКІ-21-3 Букреева О.С.</p>
+    </header>
+
+    <div class="controls">
+      <label for="input">Введіть бажаний час інтервалу (мс)</label>
+      <input
+        class="timer-input"
+        name="input"
+        type="number"
+        placeholder="Введіть число..."
+      />
+      <button class="start-btn">Start</button>
+      <button class="stop-btn">Stop</button>
+      <button class="clear-btn">Clear</button>
+    </div>
+
+    <include src="./partials/generator.html"></include>
   </body>
 </html>
