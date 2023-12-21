@@ -27,6 +27,8 @@ th {
 /*
 спитати, чтому не вийшло застилізувати з nth-child
 
+
+
 tr:nth-child(2n) {
     background-color: #F9AB55;
 }
